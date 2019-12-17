@@ -12,3 +12,7 @@ img{
 section{
     background-color: #808080;
 }
+h2{
+    text-transform: uppercase;
+    color: #0000cc;
+}
