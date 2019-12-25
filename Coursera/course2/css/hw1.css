@@ -1,9 +1,14 @@
 header{
     background-image: url("flywheel.jpg");
+    padding-top: 5px;;
 }
 header h1{
     color: #ffffff;
     text-align: center;
+}
+body{
+    padding-top: 5px;
+    margin-top: 5px;
 }
 nav a{
     display: inline-block;
@@ -19,6 +24,37 @@ nav a{
     text-decoration: none;
     border-radius: 5px;
 }
-nav a:hover{
+.active{
     background-color: #ffffff;
+}
+.left{
+    background-color: #cc9900;
+    width: 25%;
+    float:left;
+}
+.left img{
+    display: inline-block;
+    align-items: center;
+    width:70%;
+    height:25%;
+    border-style: solid;
+    border-color: #000000   ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.right{
+    display: inline-block;
+    clear:both;
+    width:75%;
+}
+.right h2{
+    margin-left: 5px;
+}
+.right p{
+    margin-left: 5px;
+}
+.right table{
+    margin-left: 5px;
 }
