@@ -1,6 +1,7 @@
 header{
     background-image: url("flywheel.jpg");
-    padding-top: 5px;;
+    padding-top: 5px;
+    background-color: #aaaaaa;
 }
 header h1{
     color: #ffffff;
