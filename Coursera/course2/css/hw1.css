@@ -57,5 +57,34 @@ nav a{
     margin-left: 5px;
 }
 .right table{
-    margin-left: 5px;
+    margin-left: 5%;
+    height: 75%;
+    width: 60%;
+}
+table th{
+    background-color: #ace600;
+    color: #ffffff;
+    height: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #99ffcc;
+    border-bottom-width: 5px;
+}
+th:first-child{
+    text-align: left;
+}
+th:not(:first-of-type)
+{
+    text-align: center;
+    width: 20%;
+}
+tr{
+    background-color: #ddffcc;
+    padding-top: 2%%;
+    padding-bottom: 2%;
+    padding-left: 2%;
 }
