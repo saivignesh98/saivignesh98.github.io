@@ -80,7 +80,21 @@ th:not(:first-of-type)
     text-align: center;
     width: 20%;
 }
-td{
-    background-color: #ddffcc;
-    padding:2%
+tr td{
+    font-size: medium;
+    padding:2%;
+    color: rgba(128, 128, 128, 1);
+    transition-property: background-color 2s;
+}
+tr{
+    background-color: rgba(221, 255, 204, 0.75);
+}
+tr:hover{
+    background-color: rgba(221, 255, 204, 0);
+}
+td:first-child{
+    text-align: left;
+}
+td:not(:first-child){
+    text-align: center;
 }
